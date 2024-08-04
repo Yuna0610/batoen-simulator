@@ -1,0 +1,123 @@
+{
+  "スライム": {
+    "mark": "●",
+    "command": [
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "やくそう　HP10かいふく", "kind": "heal", "operand": 10, "target": "self" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" }
+    ]
+  },
+  "ゴーレム": {
+    "mark": "●",
+    "command": [
+      { "text": "●モンスターに50のダメージ", "kind": "atk", "operand": 50, "target": "●" },
+      { "text": "★モンスターに50のダメージ", "kind": "atk", "operand": 50, "target": "★" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "●モンスターに50のダメージ", "kind": "atk", "operand": 50, "target": "●" },
+      { "text": "★モンスターに50のダメージ", "kind": "atk", "operand": 50, "target": "★" },
+      { "text": "ミス", "kind": "miss" }
+    ]
+  },
+  "ばくだんベビー": {
+    "mark": "★",
+    "command": [
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" },
+      { "text": "全員に40のダメージ", "kind": "atk", "operand": 40, "target": "all" },
+      { "text": "メガンテ　はじけて力尽きた 全員に50のダメージ", "kind": "megante", "operand": 50, "target": "all" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "全員に40のダメージ", "kind": "atk", "operand": 40, "target": "all" }
+    ]
+  },
+  "スライムナイト": {
+    "mark": "●",
+    "command": [
+      { "text": "●モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "●" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "★モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "★" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "ベホイミ　HP20かいふく", "kind": "heal", "operand": 20, "target": "self" }
+    ]
+  },
+  "ダンスニードル": {
+    "mark": "★",
+    "command": [
+      { "text": "●モンスターに20のダメージ", "kind": "atk", "operand": 20, "target": "●" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "★モンスターに20のダメージ", "kind": "atk", "operand": 20, "target": "★" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "やくそう　HP10かいふく", "kind": "heal", "operand": 10, "target": "self" }
+    ]
+  },
+  "ブラウニー": {
+    "mark": "●",
+    "command": [
+      { "text": "かいしんのいちげき　●モンスターに60のダメージ", "kind": "atk", "operand": 60, "target": "●" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "かいしんのいちげき　★モンスターに60のダメージ", "kind": "atk", "operand": 60, "target": "★" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "ミス", "kind": "miss" }
+    ]
+  },
+  "グレイトドラゴン": {
+    "mark": "●",
+    "command": [
+      { "text": "かえんのいき　全員に40のダメージ", "kind": "atk", "operand": 40, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "はげしいほのお　全員に50のダメージ", "kind": "atk", "operand": 50, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "ミス", "kind": "miss" }
+    ]
+  },
+  "キラーパンサー": {
+    "mark": "●",
+    "command": [ 
+      { "text": "●モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "●" },
+      { "text": "★モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "★" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" },
+      { "text": "●モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "●" },
+      { "text": "★モンスターに30のダメージ", "kind": "atk", "operand": 30, "target": "★" },
+      { "text": "いなずま　全員に40のダメージ", "kind": "atk", "operand": 40, "target": "all" }
+    ]
+  },
+  "ベホマスライム": {
+    "mark": "★",
+    "command": [ 
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "ベホマ　HP全かいふく", "kind": "heal", "operand": 100, "target": "self" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" }
+    ]
+  },
+  "はぐれメタル": {
+    "mark": "●",
+    "command": [ 
+      { "text": "イオ　全員に40のダメージ", "kind": "atk", "operand": 40, "target": "all" },
+      { "text": "ミス", "kind": "miss" },
+      { "text": "イオラ　全員に50のダメージ", "kind": "atk", "operand": 50, "target": "all" },
+      { "text": "にげだした", "kind": "escape" },
+      { "text": "イオナズン　全員に60のダメージ", "kind": "atk", "operand": 60, "target": "all" },
+      { "text": "ミス", "kind": "miss" }
+    ]
+  },
+  "クックルー": {
+    "mark": "●",
+    "command": [ 
+      { "text": "全員に10のダメージ", "kind": "atk", "operand": 10, "target": "all" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" },
+      { "text": "全員に30のダメージ", "kind": "atk", "operand": 30, "target": "all" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" },
+      { "text": "やくそう　HP10かいふく", "kind": "heal", "operand": 10, "target": "self" },
+      { "text": "全員に20のダメージ", "kind": "atk", "operand": 20, "target": "all" }
+    ]
+  }
+}

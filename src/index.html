@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ドラクエバトルえんぴつシミュレーター</title>
+  <link rel="stylesheet" href="css/batoen.css">
+</head>
+<body>
+  <div id="header">ドラクエバトルえんぴつシミュレーター</div>
+  <div class="container">
+    <div class="simulation-controls">
+      <p>100回シミュレーションします <button id="startSimulation">開始</button> <button id="startSingleSimulation">検証</button></p>
+      <p>プレイヤー1勝利数: <span id="player1Wins">0</span></p>
+      <p>プレイヤー2勝利数: <span id="player2Wins">0</span></p>
+    </div>
+    <hr>
+    <div class="player">
+      <h2>プレイヤー1</h2>
+      <div class="monster">
+        <select id="monster1">
+          <option value="">モンスターを選択</option>
+        </select>
+        <span>マーク：<span id="mark1"></span></span>
+        <table>
+          <tbody id="commands1">
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="player">
+      <h2>プレイヤー2</h2>
+      <div class="monster">
+        <select id="monster2">
+          <option value="">モンスターを選択</option>
+        </select>
+        <span>マーク：<span id="mark2"></span></span>
+        <table>
+          <tbody id="commands2">
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div id="battleLog"></div>
+    </div>
+  </div>
+  <script src="lib/jquery-3.4.1.min.js"></script>
+  <script src="js/batoen-main.js"></script>
+  <script>
+    Batoen.Main.initialize();
+  </script>
+</body>
+</html>

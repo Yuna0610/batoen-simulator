@@ -1,0 +1,23 @@
+{
+  "name": "batoen-simulator",
+  "version": "1.0.0",
+  "description": "バトエンシミュレーター",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint -c eslint.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuna0610/batoen-simulator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuna0610/batoen-simulator/issues"
+  },
+  "homepage": "https://github.com/Yuna0610/batoen-simulator#readme",
+  "dependencies": {
+    "eslint": "^9.8.0"
+  }
+}
